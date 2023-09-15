@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)file:///C:/Users/vs901/OneDrive/Desktop/converter/basic.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Temperature Converter</title>
+<link rel="stylesheet" href="./Temperature Converter_files/styles.css">
+</head>
+<body>
+  <div class="converter-container">
+    <h1>Temperature Converter</h1>
+    <label for="temperature">Enter Temperature:</label>
+    <input type="number" id="temperature" step="0.01">
+    <br>
+    <label for="unit">Unit:</label>
+    <select class="unit-select" id="unit">
+      <option value="celsius">Celsius</option>
+      <option value="fahrenheit">Fahrenheit</option>
+    </select>
+    <br>
+    <div class="radio-group">
+      <label>
+        <input type="radio" name="unit" value="celsius" checked=""> Celsius
+      </label>
+      <label>
+        <input type="radio" name="unit" value="fahrenheit"> Fahrenheit
+      </label>
+    </div>
+    <br>
+    <button class="convert-button" onclick="convertTemperature()">Convert</button>
+    <div class="result" id="result"></div>
+  </div>
+
+  <script src="./Temperature Converter_files/script.js.download"></script>
+
+
+</body></html>
